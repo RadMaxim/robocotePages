@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 20vh;
+    background-color: rgba(0, 128, 0, 0.197);
+}
+main{
+    min-height: 200vh;
+    background-color: rgba(0, 81, 128, 0.197);
+}
+footer{
+    height: 30vh;
+    background-color: rgba(107, 128, 0, 0.197);
+}
+body{
+    padding-top: 20vh;
+    background-image: url("./background_main.jpg");
+    background-attachment: fixed;
+   
+}
+
+.row{
+    height: 100%;
+    
+}
+.row>div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.cards, .col-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.left_section, .right_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    gap: 15px;
+}
+.card{
+    border-radius: 20px !important;
+    width: 30vw !important;
+}
